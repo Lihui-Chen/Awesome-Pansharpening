@@ -7,11 +7,11 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 2. [Performance Assessment](#Performance-Assessment)
 3. [CS-based Methods](#Component-Substitute-(CS)-Based-Pansharpening)
 4. [MRA-based Methods](#Multi-Resolution-Analysis-(MRA)-Based-Pansharpening)
-5. [MO-based Methods](#5Model Optimization Based Pansharpening)
-6. [DL-based Methods](#Deep Learning Based Pansharpening)
-   -[Supervised Methods](#a)-Supervised-Methods)
-   -[Unsupervised Methods](#a)-Unsupervised-Methods)
-8. [Challenges](#Challenges In Pansharpening)
+5. [MO-based Methods](#Model-Optimization-Based-Pansharpening)
+6. [DL-based Methods](#Deep-Learning-Based-Pansharpening)
+    - [Supervised Methods](#a.-Supervised-Methods)
+    - [Unsupervised Methods](#b.-Unsupervised-Methods)
+8. [Challenges](#Challenges-In-Pansharpening)
 
 
 
@@ -65,7 +65,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Deep Learning Based Pansharpening
 
-### a) Supervised Methods
+### a. Supervised Methods
 
 1. Wei Huang, Liang Xiao, Zhihui Wei, Hongyi Liu, and Songze Tang, “A New Pan-Sharpening Method With Deep Neural Networks,” *IEEE Geosci. Remote Sensing Lett.*, vol. 12, no. 5, pp. 1037–1041, May 2015, doi: [10.1109/LGRS.2014.2376034](https://doi.org/10.1109/LGRS.2014.2376034).
 2. G. Masi, D. Cozzolino, L. Verdoliva, and G. Scarpa, “Pansharpening by Convolutional Neural Networks,” *Remote Sensing*, vol. 8, no. 7, Art. no. 7, Jul. 2016, doi: [10.3390/rs8070594](https://doi.org/10.3390/rs8070594).
@@ -110,7 +110,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 
 
-### b) Unsupervised Methods
+### b. Unsupervised Methods
 
 1. S. Luo, S. Zhou, Y. Feng, and J. Xie, “Pansharpening via Unsupervised Convolutional Neural Networks,” *IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING*, vol. 13, p. 16, 2020.
 2. J. Ma, W. Yu, C. Chen, P. Liang, X. Guo, and J. Jiang, “Pan-GAN: An unsupervised pan-sharpening method for remote sensing image fusion,” *Information Fusion*, vol. 62, pp. 110–120, Oct. 2020, doi: [10.1016/j.inffus.2020.04.006](https://doi.org/10.1016/j.inffus.2020.04.006).
