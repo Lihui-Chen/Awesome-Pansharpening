@@ -3,17 +3,17 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Contents
 
-1. [Survey](## 1. Survey)
-2. [Performance Assessment](# 2. Performance Assessment)
-3. [CS-based Methods](# 3. Component Substitute (CS)-Based Pansharpening)
-4. [MRA-based Methods](# 4. Multi Resolution Analysis (MRA)-Based Pansharpening)
-5. [MO-based Methods](# 5. Model Optimization Based Pansharpening)
-6. [DL-based Methods](# 6. Deep Learning Based Pansharpening)
-7. [Challenges](# 7. Challenges In Pansharpening)
+1. [Survey](#Survey)
+2. [Performance Assessment](#2. Performance Assessment)
+3. [CS-based Methods](#3. Component Substitute (CS)-Based Pansharpening)
+4. [MRA-based Methods](#4. Multi Resolution Analysis (MRA)-Based Pansharpening)
+5. [MO-based Methods](#5. Model Optimization Based Pansharpening)
+6. [DL-based Methods](#6. Deep Learning Based Pansharpening)
+7. [Challenges](#7. Challenges In Pansharpening)
 
 
 
-## 1. Survey
+## Survey
 
 1. F. Laporterie-Déjean, H. de Boissezon, G. Flouzat, and M.-J. Lefèvre-Fonollosa, “Thematic and statistical evaluations of five panchromatic/multispectral fusion methods on simulated PLEIADES-HR images,” *Information Fusion*, vol. 6, no. 3, pp. 193–212, Sep. 2005, doi: [10.1016/j.inffus.2004.06.006](https://doi.org/10.1016/j.inffus.2004.06.006).
 2. C. Thomas, T. Ranchin, L. Wald, and J. Chanussot, “Synthesis of Multispectral Images to High Spatial Resolution: A Critical Review of Fusion Methods Based on Remote Sensing Physics,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 46, no. 5, pp. 1301–1312, May 2008, doi: [10.1109/TGRS.2007.912448](https://doi.org/10.1109/TGRS.2007.912448).
