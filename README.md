@@ -3,17 +3,33 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Contents
 
-1. [Survey](#Survey)
-2. [Performance Assessment](#Performance-Assessment)
-3. [CS-based Methods](#Component-Substitute-(CS)-Based-Pansharpening)
-4. [MRA-based Methods](#Multi-Resolution-Analysis-(MRA)-Based-Pansharpening)
-5. [MO-based Methods](#5Model Optimization Based Pansharpening)
-6. [DL-based Methods](#Deep Learning Based Pansharpening)
+1. [Datasets](#Datasets)
+2. [Survey](#Survey)
+3. [Performance Assessment](#Performance-Assessment)
+4. [CS-based Methods](#Component-Substitute-(CS)-Based-Pansharpening)
+5. [MRA-based Methods](#Multi-Resolution-Analysis-(MRA)-Based-Pansharpening)
+6. [MO-based Methods](#5Model Optimization Based Pansharpening)
+7. [DL-based Methods](#Deep Learning Based Pansharpening)
    - [Supervised Methods](#a.-Supervised-Methods)
    - [Unsupervised Methods](#b.-Unsupervised-Methods)
-7. [Challenges](#Challenges In Pansharpening)
+
+8. [Challenges](#Challenges In Pansharpening)
 
 
+
+# Datasets
+
+1. X. Meng *et al.*, “A Large-Scale Benchmark Data Set for Evaluating Pansharpening Performance: Overview and Implementation,” *IEEE Geosci. Remote Sens. Mag.*, vol. 9, no. 1, pp. 18–52, Mar. 2021, doi: [10.1109/MGRS.2020.2976696](https://doi.org/10.1109/MGRS.2020.2976696).
+
+   [NBU-Dataset](https://pan.baidu.com/s/1Utja1PHUqgoXaksWjC2CPw) (Password：y77y)
+
+2. *G. Vivone, M. Dalla Mura, A. Garzelli, and F. Pacifici, "A Benchmarking Protocol for Pansharpening: Dataset, Pre-processing, and Quality Assessment," IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021.* 
+
+   [PAirMax benchmark dataset ](https://resources.maxar.com/product-samples/pansharpening-benchmark-dataset)
+
+3. [Remote Sensing Product Samples](https://resources.maxar.com/product-samples)
+
+4. [gscloud](http://www.gscloud.cn/sources/index?pid=2&rootid=2)
 
 ## Survey
 
@@ -29,31 +45,55 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Performance-Assessment
 
-1. L. Wald, T. Ranchin, and M. Mangolini, “Fusion of satellite images of different spatial resolutions: Assessing the quality of resulting images,” *Photogrammetric engineering and remote sensing*, vol. 63, no. 6, pp. 691–699, 1997.
+[1] R. H. Yuhas, A. F. Goetz, and J. W. Boardman, “Discrimination among semi-arid landscape endmembers using the spectral angle mapper (SAM) algorithm,” in *Proc. Summaries 3rd Annu. JPL Airborne Geosci. Workshop*, 1992, vol. 1, pp. 147–149.
 
-2. L. Alparone, S. Baronti, A. Garzelli, and F. Nencini, “A global quality measurement of pan-sharpened multispectral imagery,” *IEEE Geoscience and Remote Sensing Letters*, vol. 1, no. 4, pp. 313–317, Oct. 2004, doi: [10.1109/LGRS.2004.836784](https://doi.org/10.1109/LGRS.2004.836784).
+[2] L. Wald, T. Ranchin, and M. Mangolini, “Fusion of satellite images of different spatial resolutions: Assessing the quality of resulting images,” *Photogrammetric engineering and remote sensing*, vol. 63, no. 6, pp. 691–699, 1997.
 
-3. C. Thomas and L. Wald, “Analysis of Changes in Quality Assessment with Scale,” in *2006 9th International Conference on Information Fusion*, Jul. 2006, pp. 1–5. doi: [10.1109/ICIF.2006.301595](https://doi.org/10.1109/ICIF.2006.301595).
+[3] J. Zhou, D. L. Civco, and J. A. Silander, “A wavelet transform method to merge Landsat TM and SPOT panchromatic data,” *International Journal of Remote Sensing*, vol. 19, no. 4, pp. 743–757, Jan. 1998, doi: [10.1080/014311698215973](https://doi.org/10.1080/014311698215973).
 
-4. Q. Du, N. H. Younan, R. King, and V. P. Shah, “On the Performance Evaluation of Pan-Sharpening Techniques,” *IEEE Geoscience and Remote Sensing Letters*, vol. 4, no. 4, pp. 518–522, Oct. 2007, doi: [10.1109/LGRS.2007.896328](https://doi.org/10.1109/LGRS.2007.896328).
+[4] L. Wald, *Data fusion: definitions and architectures: fusion of images of different spatial resolutions*. Presses des MINES, 2002.
 
-5. L. Alparone, B. Aiazzi, S. Baronti, A. Garzelli, F. Nencini, and M. Selva, “Multispectral and Panchromatic Data Fusion Assessment Without Reference,” *PHOTOGRAMMETRIC ENGINEERING*, Vol. 74, No. 2, February 2008, pp. 193–200.
+[5]Z. Wang and A. C. Bovik, “A universal image quality index,” *IEEE Signal Processing Letters*, vol. 9, no. 3, pp. 81–84, Mar. 2002, doi: [10.1109/97.995823](https://doi.org/10.1109/97.995823).
 
-6. M. M. Khan, L. Alparone, and J. Chanussot, “Pansharpening Quality Assessment Using the Modulation Transfer Functions of Instruments,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 47, no. 11, pp. 3880–3891, Nov. 2009, doi: [10.1109/TGRS.2009.2029094](https://doi.org/10.1109/TGRS.2009.2029094).
+[6] L. Alparone, S. Baronti, A. Garzelli, and F. Nencini, “A global quality measurement of pan-sharpened multispectral imagery,” *IEEE Geoscience and Remote Sensing Letters*, vol. 1, no. 4, pp. 313–317, Oct. 2004, doi: [10.1109/LGRS.2004.836784](https://doi.org/10.1109/LGRS.2004.836784).
 
-7. B. Aiazzi, L. Alparone, S. Baronti, R. Carlà, A. Garzelli, and L. Santurri, “Full-scale assessment of pansharpening methods and data products,” in *Image and Signal Processing for Remote Sensing XX*, Oct. 2014, vol. 9244, p. 924402. doi: [10.1117/12.2067770](https://doi.org/10.1117/12.2067770).
+[7] C. Thomas and L. Wald, “Analysis of Changes in Quality Assessment with Scale,” in *2006 9th International Conference on Information Fusion*, Jul. 2006, pp. 1–5. doi: [10.1109/ICIF.2006.301595](https://doi.org/10.1109/ICIF.2006.301595).
 
-8. R. Carla, L. Santurri, B. Aiazzi, and S. Baronti, “Full-Scale Assessment of Pansharpening Through Polynomial Fitting of Multiscale Measurements,” *IEEE Trans. Geosci. Remote Sensing*, vol. 53, no. 12, pp. 6344–6355, Dec. 2015, doi: [10.1109/TGRS.2015.2436699](https://doi.org/10.1109/TGRS.2015.2436699).
+[8] C. Thomas and L. Wald, “Comparing distances for quality assessment of fused images,” in *26th EARSeL Symposium*, Varsovie, Poland, May 2006, pp. 101–111. Accessed: Jun. 18, 2021. [Online]. Available: https://hal.archives-ouvertes.fr/hal-00395062
 
-9. W. Dou, “Image Degradation for Quality Assessment of Pan-Sharpening Methods,” *Remote Sensing*, vol. 10, no. 2, p. 154, Jan. 2018, doi: [10.3390/rs10010154](https://doi.org/10.3390/rs10010154).
+[9] Q. Du, N. H. Younan, R. King, and V. P. Shah, “On the Performance Evaluation of Pan-Sharpening Techniques,” *IEEE Geoscience and Remote Sensing Letters*, vol. 4, no. 4, pp. 518–522, Oct. 2007, doi: [10.1109/LGRS.2007.896328](https://doi.org/10.1109/LGRS.2007.896328).
 
-10. M. Selva, L. Santurri, and S. Baronti, “On the Use of the Expanded Image in Quality Assessment of Pansharpened Images,” *IEEE Geosci. Remote Sensing Lett.*, vol. 15, no. 3, pp. 320–324, Mar. 2018, doi: [10.1109/LGRS.2017.2777916](https://doi.org/10.1109/LGRS.2017.2777916).
+[10] L. Alparone, B. Aiazzi, S. Baronti, A. Garzelli, F. Nencini, and M. Selva, “Multispectral and Panchromatic Data Fusion Assessment Without Reference,” *Photogrammetric Engineering & Remote Sensing*, vol. 74, no. 2, pp. 193–200, Feb. 2008, doi: [10.14358/PERS.74.2.193](https://doi.org/10.14358/PERS.74.2.193).
 
-11. G. Vivone, R. Restaino, and J. Chanussot, “A Bayesian Procedure for Full-Resolution Quality Assessment of Pansharpened Products,” *IEEE Trans. Geosci. Remote Sensing*, vol. 56, no. 8, pp. 4820–4834, Aug. 2018, doi: [10.1109/TGRS.2018.2839564](https://doi.org/10.1109/TGRS.2018.2839564).
+[11] A. Garzelli and F. Nencini, “Hypercomplex Quality Assessment of Multi/Hyperspectral Images,” *IEEE Geoscience and Remote Sensing Letters*, vol. 6, no. 4, pp. 662–665, Oct. 2009, doi: [10.1109/LGRS.2009.2022650](https://doi.org/10.1109/LGRS.2009.2022650).
 
-12. O. A. Agudelo-Medina, H. D. Benitez-Restrepo, G. Vivone, and A. Bovik, “Perceptual Quality Assessment of Pan-Sharpened Images,” *Remote Sensing*, vol. 11, no. 7, p. 877, Apr. 2019, doi: [10.3390/rs11070877](https://doi.org/10.3390/rs11070877).
+[12] M. M. Khan, L. Alparone, and J. Chanussot, “Pansharpening Quality Assessment Using the Modulation Transfer Functions of Instruments,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 47, no. 11, pp. 3880–3891, Nov. 2009, doi: [10.1109/TGRS.2009.2029094](https://doi.org/10.1109/TGRS.2009.2029094).
 
-    
+[13] K. Kotwal and S. Chaudhuri, “A novel approach to quantitative evaluation of hyperspectral image fusion techniques,” *Information Fusion*, vol. 14, no. 1, pp. 5–18, Jan. 2013, doi: [10.1016/j.inffus.2011.03.008](https://doi.org/10.1016/j.inffus.2011.03.008).
+
+[14] B. Aiazzi, L. Alparone, S. Baronti, R. Carlà, A. Garzelli, and L. Santurri, “Full-scale assessment of pansharpening methods and data products,” in *Image and Signal Processing for Remote Sensing XX*, Oct. 2014, vol. 9244, p. 924402. doi: [10.1117/12.2067770](https://doi.org/10.1117/12.2067770).
+
+[15] X. Huang, D. Wen, J. Xie, and L. Zhang, “Quality Assessment of Panchromatic and Multispectral Image Fusion for the ZY-3 Satellite: From an Information Extraction Perspective,” *IEEE Geoscience and Remote Sensing Letters*, vol. 11, no. 4, pp. 753–757, Apr. 2014, doi: [10.1109/LGRS.2013.2278551](https://doi.org/10.1109/LGRS.2013.2278551).
+
+[16] G. Vivone, R. Restaino, M. Dalla Mura, G. Licciardi, and J. Chanussot, “Contrast and Error-Based Fusion Schemes for Multispectral Image Pansharpening,” *IEEE Geoscience and Remote Sensing Letters*, vol. 11, no. 5, pp. 930–934, May 2014, doi: [10.1109/LGRS.2013.2281996](https://doi.org/10.1109/LGRS.2013.2281996).
+
+[17] R. Carla, L. Santurri, B. Aiazzi, and S. Baronti, “Full-Scale Assessment of Pansharpening Through Polynomial Fitting of Multiscale Measurements,” *IEEE Trans. Geosci. Remote Sensing*, vol. 53, no. 12, pp. 6344–6355, Dec. 2015, doi: [10.1109/TGRS.2015.2436699](https://doi.org/10.1109/TGRS.2015.2436699).
+
+[18] G. Palubinskas, “Joint Quality Measure for Evaluation of Pansharpening Accuracy,” *Remote Sensing*, vol. 7, no. 7, pp. 9292–9310, Jul. 2015, doi: [10.3390/rs70709292](https://doi.org/10.3390/rs70709292).
+
+[19] C. Kwan, B. Budavari, A. C. Bovik, and G. Marchisio, “Blind Quality Assessment of Fused WorldView-3 Images by Using the Combinations of Pansharpening and Hypersharpening Paradigms,” *IEEE Geoscience and Remote Sensing Letters*, vol. 14, no. 10, pp. 1835–1839, Oct. 2017, doi: [10.1109/LGRS.2017.2737820](https://doi.org/10.1109/LGRS.2017.2737820).
+
+[20] L. Alparone, A. Garzelli, and G. Vivone, “Spatial Consistency for Full-Scale Assessment of Pansharpening,” in *IGARSS 2018 - 2018 IEEE International Geoscience and Remote Sensing Symposium*, Valencia, Jul. 2018, pp. 5132–5134. doi: [10.1109/IGARSS.2018.8518869](https://doi.org/10.1109/IGARSS.2018.8518869).
+
+[21] W. Dou, “Image Degradation for Quality Assessment of Pan-Sharpening Methods,” *Remote Sensing*, vol. 10, no. 2, p. 154, Jan. 2018, doi: [10.3390/rs10010154](https://doi.org/10.3390/rs10010154).
+
+[22] M. Selva, L. Santurri, and S. Baronti, “On the Use of the Expanded Image in Quality Assessment of Pansharpened Images,” *IEEE Geosci. Remote Sensing Lett.*, vol. 15, no. 3, pp. 320–324, Mar. 2018, doi: [10.1109/LGRS.2017.2777916](https://doi.org/10.1109/LGRS.2017.2777916).
+
+[23] G. Vivone, R. Restaino, and J. Chanussot, “A Bayesian Procedure for Full-Resolution Quality Assessment of Pansharpened Products,” *IEEE Trans. Geosci. Remote Sensing*, vol. 56, no. 8, pp. 4820–4834, Aug. 2018, doi: [10.1109/TGRS.2018.2839564](https://doi.org/10.1109/TGRS.2018.2839564).
+
+[24] O. A. Agudelo-Medina, H. D. Benitez-Restrepo, G. Vivone, and A. Bovik, “Perceptual Quality Assessment of Pan-Sharpened Images,” *Remote Sensing*, vol. 11, no. 7, p. 877, Apr. 2019, doi: [10.3390/rs11070877](https://doi.org/10.3390/rs11070877).
+
+
 
 ## Component Substitute (CS)-Based Pansharpening
 
@@ -61,9 +101,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 2. Alan R Gillespie, Anne B Kahle, and Richard E Walker. 1987. Color enhancement of highly correlated images. II. Channel ratio and “chromaticity” transformation techniques. *Remote Sensing of Environment* 22, 3 (1987), 343–365.
 3. Craig A Laben and Bernard V Brower. 2000. Process for enhancing the spatial resolution of multispectral imagery using pan-sharpening. US Patent 6,011,875.
 4. Sheida Rahmani, Melissa Strait, Daria Merkurjev, Michael Moeller, and Todd Wittman. 2010. An adaptive IHS pan-sharpening method. *IEEE Geoscience and Remote Sensing Letters* 7, 4 (2010), 746–750
-
 ## Multi Resolution Analysis (MRA)-Based Pansharpening
-
 1. Bruno Aiazzi, Luciano Alparone, Stefano Baronti, and Andrea Garzelli. 2002. Context-driven fusion of high spatial and spectral resolution images based on oversampled multiresolution analysis. *IEEE Transactions on geoscience and remote sensing* 40, 10 (2002), 2300–2312
 2. Xavier Otazu, María González-Audícana, Octavi Fors, and Jorge Núñez. 2005. Introduction of sensor spectral response into image fusion methods. Application to wavelet-based methods. *IEEE Transactions on Geoscience and Remote Sensing* 43, 10 (2005), 2376–2385.
 3. Vijay P Shah, Nicolas H Younan, and Roger L King. 2008. An efficient pan-sharpening method via a combined adaptive PCA approach and contourlets. *IEEE transactions on geoscience and remote sensing* 46, 5 (2008), 1323–1335.
@@ -79,8 +117,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Deep Learning Based Pansharpening
 
-### a. Supervised Methods
-
+### Supervised Methods
 1. Wei Huang, Liang Xiao, Zhihui Wei, Hongyi Liu, and Songze Tang, “A New Pan-Sharpening Method With Deep Neural Networks,” *IEEE Geosci. Remote Sensing Lett.*, vol. 12, no. 5, pp. 1037–1041, May 2015, doi: [10.1109/LGRS.2014.2376034](https://doi.org/10.1109/LGRS.2014.2376034).
 2. G. Masi, D. Cozzolino, L. Verdoliva, and G. Scarpa, “Pansharpening by Convolutional Neural Networks,” *Remote Sensing*, vol. 8, no. 7, Art. no. 7, Jul. 2016, doi: [10.3390/rs8070594](https://doi.org/10.3390/rs8070594).
 3. A. Azarang and H. Ghassemian, “A new pansharpening method using multi resolution analysis framework and deep neural networks,” in *2017 3rd International Conference on Pattern Recognition and Image Analysis (IPRIA)*, Shahrekord, Iran, Apr. 2017, pp. 1–6. doi: [10.1109/PRIA.2017.7983017](https://doi.org/10.1109/PRIA.2017.7983017).
@@ -123,8 +160,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 
 
-### b. Unsupervised Methods
-
+### Unsupervised Methods
 1. S. Luo, S. Zhou, Y. Feng, and J. Xie, “Pansharpening via Unsupervised Convolutional Neural Networks,” *IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING*, vol. 13, p. 16, 2020.
 2. J. Ma, W. Yu, C. Chen, P. Liang, X. Guo, and J. Jiang, “Pan-GAN: An unsupervised pan-sharpening method for remote sensing image fusion,” *Information Fusion*, vol. 62, pp. 110–120, Oct. 2020, doi: [10.1016/j.inffus.2020.04.006](https://doi.org/10.1016/j.inffus.2020.04.006).
 3. Y. Qu, R. K. Baghbaderani, H. Qi, and C. Kwan, “Unsupervised Pansharpening Based on Self-Attention Mechanism,” *IEEE Trans. Geosci. Remote Sensing*, pp. 1–17, 2020, doi: [10.1109/TGRS.2020.3009207](https://doi.org/10.1109/TGRS.2020.3009207).
