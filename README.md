@@ -3,17 +3,19 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 ## Contents
 
-1. [Survey](# 1. Survey)
-2. [Performance Assessment](# 2. Performance Assessment)
-3. [CS-based Methods](# 3. Component Substitute (CS)-Based Pansharpening)
-4. [MRA-based Methods](# 4. Multi Resolution Analysis (MRA)-Based Pansharpening)
-5. [MO-based Methods](# 5. Model Optimization Based Pansharpening)
-6. [DL-based Methods](# 6. Deep Learning Based Pansharpening)
-7. [Challenges](# 7. Challenges In Pansharpening)
+1. [Survey](#Survey)
+2. [Performance Assessment](#Performance-Assessment)
+3. [CS-based Methods](#Component-Substitute-(CS)-Based-Pansharpening)
+4. [MRA-based Methods](#Multi-Resolution-Analysis-(MRA)-Based-Pansharpening)
+5. [MO-based Methods](#5Model Optimization Based Pansharpening)
+6. [DL-based Methods](#Deep Learning Based Pansharpening)
+   - [Supervised Methods](#a.-Supervised-Methods)
+   - [Unsupervised Methods](#b.-Unsupervised-Methods)
+7. [Challenges](#Challenges In Pansharpening)
 
 
 
-## 1. Survey
+## Survey
 
 1. F. Laporterie-Déjean, H. de Boissezon, G. Flouzat, and M.-J. Lefèvre-Fonollosa, “Thematic and statistical evaluations of five panchromatic/multispectral fusion methods on simulated PLEIADES-HR images,” *Information Fusion*, vol. 6, no. 3, pp. 193–212, Sep. 2005, doi: [10.1016/j.inffus.2004.06.006](https://doi.org/10.1016/j.inffus.2004.06.006).
 2. C. Thomas, T. Ranchin, L. Wald, and J. Chanussot, “Synthesis of Multispectral Images to High Spatial Resolution: A Critical Review of Fusion Methods Based on Remote Sensing Physics,” *IEEE Transactions on Geoscience and Remote Sensing*, vol. 46, no. 5, pp. 1301–1312, May 2008, doi: [10.1109/TGRS.2007.912448](https://doi.org/10.1109/TGRS.2007.912448).
@@ -25,7 +27,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 8. G. Vivone *et al.*, “A New Benchmark Based on Recent Advances in Multispectral Pansharpening: Revisiting Pansharpening With Classical and Emerging Pansharpening Methods,” *IEEE Geosci. Remote Sens. Mag.*, vol. 9, no. 1, pp. 53–81, Mar. 2021, doi: [10.1109/MGRS.2020.3019315](https://doi.org/10.1109/MGRS.2020.3019315). 
 9. X. Meng *et al.*, “A Large-Scale Benchmark Data Set for Evaluating Pansharpening Performance: Overview and Implementation,” *IEEE Geosci. Remote Sens. Mag.*, vol. 9, no. 1, pp. 18–52, Mar. 2021, doi: [10.1109/MGRS.2020.2976696](https://doi.org/10.1109/MGRS.2020.2976696).
 
-## 2. Performance Assessment
+## Performance-Assessment
 
 1. L. Wald, T. Ranchin, and M. Mangolini, “Fusion of satellite images of different spatial resolutions: Assessing the quality of resulting images,” *Photogrammetric engineering and remote sensing*, vol. 63, no. 6, pp. 691–699, 1997.
 
@@ -53,17 +55,31 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
     
 
-## 3. Component Substitute (CS)-Based Pansharpening
+## Component Substitute (CS)-Based Pansharpening
 
-## 4. Multi Resolution Analysis (MRA)-Based Pansharpening
+1. W. Carper, T. Lillesand, and R. Kiefer. 1990. The use of intensity-hue-saturation transformations for merging SPOT panchromatic and multispectral image data. *Photogrammetric Engineering and remote sensing* 56, 4 (1990), 459–467.
+2. Alan R Gillespie, Anne B Kahle, and Richard E Walker. 1987. Color enhancement of highly correlated images. II. Channel ratio and “chromaticity” transformation techniques. *Remote Sensing of Environment* 22, 3 (1987), 343–365.
+3. Craig A Laben and Bernard V Brower. 2000. Process for enhancing the spatial resolution of multispectral imagery using pan-sharpening. US Patent 6,011,875.
+4. Sheida Rahmani, Melissa Strait, Daria Merkurjev, Michael Moeller, and Todd Wittman. 2010. An adaptive IHS pan-sharpening method. *IEEE Geoscience and Remote Sensing Letters* 7, 4 (2010), 746–750
 
-## 
+## Multi Resolution Analysis (MRA)-Based Pansharpening
 
-## 5. Model Optimization Based Pansharpening
+1. Bruno Aiazzi, Luciano Alparone, Stefano Baronti, and Andrea Garzelli. 2002. Context-driven fusion of high spatial and spectral resolution images based on oversampled multiresolution analysis. *IEEE Transactions on geoscience and remote sensing* 40, 10 (2002), 2300–2312
+2. Xavier Otazu, María González-Audícana, Octavi Fors, and Jorge Núñez. 2005. Introduction of sensor spectral response into image fusion methods. Application to wavelet-based methods. *IEEE Transactions on Geoscience and Remote Sensing* 43, 10 (2005), 2376–2385.
+3. Vijay P Shah, Nicolas H Younan, and Roger L King. 2008. An efficient pan-sharpening method via a combined adaptive PCA approach and contourlets. *IEEE transactions on geoscience and remote sensing* 46, 5 (2008), 1323–1335.
+4. Zhijun Wang, Djemel Ziou, Costas Armenakis, Deren Li, and Qingquan Li. 2005. A comparative analysis of image fusion methods. *IEEE transactions on geoscience and remote sensing* 43, 6 (2005), 1391–1402.
+5. 
 
-## 6. Deep Learning Based Pansharpening
+## Model Optimization Based Pansharpening
 
-### 6.1 Supervised Methods
+1. Xueyang Fu, Zihuang Lin, Yue Huang, and Xinghao Ding. 2019. A Variational Pan-Sharpening With Local Gradient Constraints. In *2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. 10257–10266. https://doi.org/10.1109/CVPR.2019.01051
+2. Pengfei Liu, Liang Xiao, and Tao Li. 2018. A Variational Pan-Sharpening Method Based on Spatial Fractional-Order Geometry and Spectral–Spatial Low-Rank Priors. *IEEE Transactions on Geoscience and Remote Sensing* 56 (March 2018), 1788–1802. https://doi.org/10.1109/TGRS.2017.2768386
+3. Penghao Guo, Peixian Zhuang, and Yecai Guo. 2020. Bayesian Pan-Sharpening With Multiorder Gradient-Based Deep Network Constraints. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing* 13 (2020), 950–962. https://doi.org/10.1109/JSTARS.2020.2975000
+4. Haitao Yin. 2019. PAN-Guided Cross-Resolution Projection for Local Adaptive Sparse Representation- Based Pansharpening. *IEEE Transactions on Geoscience and Remote Sensing* 57 (July 2019), 4938–4950. https://doi.org/10.1109/TGRS.2019.2894702
+
+## Deep Learning Based Pansharpening
+
+### a. Supervised Methods
 
 1. Wei Huang, Liang Xiao, Zhihui Wei, Hongyi Liu, and Songze Tang, “A New Pan-Sharpening Method With Deep Neural Networks,” *IEEE Geosci. Remote Sensing Lett.*, vol. 12, no. 5, pp. 1037–1041, May 2015, doi: [10.1109/LGRS.2014.2376034](https://doi.org/10.1109/LGRS.2014.2376034).
 2. G. Masi, D. Cozzolino, L. Verdoliva, and G. Scarpa, “Pansharpening by Convolutional Neural Networks,” *Remote Sensing*, vol. 8, no. 7, Art. no. 7, Jul. 2016, doi: [10.3390/rs8070594](https://doi.org/10.3390/rs8070594).
@@ -102,13 +118,12 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 39. Y. Yang, W. Tu, S. Huang, and H. Lu, “PCDRN: Progressive Cascade Deep Residual Network for Pansharpening,” *Remote Sensing*, vol. 12, no. 4, p. 676, Feb. 2020, doi: [10.3390/rs12040676](https://doi.org/10.3390/rs12040676).
 40. Y. Zheng, J. Li, Y. Li, K. Cao, and K. Wang, “Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening,” *IEEE Geosci. Remote Sensing Lett.*, vol. 17, no. 8, pp. 1435–1439, Aug. 2020, doi: [10.1109/LGRS.2019.2945424](https://doi.org/10.1109/LGRS.2019.2945424).
 41. Y. Zheng, J. Li, Y. Li, J. Guo, X. Wu, and J. Chanussot, “Hyperspectral Pansharpening Using Deep Prior and Dual Attention Residual Network,” *IEEE Trans. Geosci. Remote Sensing*, vol. 58, no. 11, pp. 8059–8076, Nov. 2020, doi: [10.1109/TGRS.2020.2986313](https://doi.org/10.1109/TGRS.2020.2986313).
-42. 
 43. D. Lei, H. Chen, L. Zhang, and W. Li, “NLRNet: An Efficient Nonlocal Attention ResNet for Pansharpening,” *IEEE Transactions on Geoscience and Remote Sensing*, pp. 1–13, 2021, doi: [10.1109/TGRS.2021.3067097](https://doi.org/10.1109/TGRS.2021.3067097).
 44. S. Xu, J. Zhang, Z. Zhao, K. Sun, J. Liu, and C. Zhang, “Deep Gradient Projection Networks for Pan-sharpening,” *CVPR2021*, Mar. 2021,
 
 
 
-### 6.2 Unsupervised Methods
+### b. Unsupervised Methods
 
 1. S. Luo, S. Zhou, Y. Feng, and J. Xie, “Pansharpening via Unsupervised Convolutional Neural Networks,” *IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING*, vol. 13, p. 16, 2020.
 2. J. Ma, W. Yu, C. Chen, P. Liang, X. Guo, and J. Jiang, “Pan-GAN: An unsupervised pan-sharpening method for remote sensing image fusion,” *Information Fusion*, vol. 62, pp. 110–120, Oct. 2020, doi: [10.1016/j.inffus.2020.04.006](https://doi.org/10.1016/j.inffus.2020.04.006).
@@ -118,7 +133,6 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 
 
 
-## 7. Challenges In Pansharpening
+## Challenges In Pansharpening
 
  
-
