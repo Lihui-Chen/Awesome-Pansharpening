@@ -157,9 +157,9 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 41. Y. Zheng, J. Li, Y. Li, J. Guo, X. Wu, and J. Chanussot, “Hyperspectral Pansharpening Using Deep Prior and Dual Attention Residual Network,” *IEEE Trans. Geosci. Remote Sensing*, vol. 58, no. 11, pp. 8059–8076, Nov. 2020, doi: [10.1109/TGRS.2020.2986313](https://doi.org/10.1109/TGRS.2020.2986313).
 43. D. Lei, H. Chen, L. Zhang, and W. Li, “NLRNet: An Efficient Nonlocal Attention ResNet for Pansharpening,” *IEEE Transactions on Geoscience and Remote Sensing*, pp. 1–13, 2021, doi: [10.1109/TGRS.2021.3067097](https://doi.org/10.1109/TGRS.2021.3067097).
 44. S. Xu, J. Zhang, Z. Zhao, K. Sun, J. Liu, and C. Zhang, “Deep Gradient Projection Networks for Pan-sharpening,” *CVPR2021*, Mar. 2021,
-45. X. Wu, T.-Z. Huang, L.-J. Deng, and T.-J. Zhang, “Dynamic Cross Feature Fusion for Remote Sensing Pansharpening,” ICCV2021, [paper](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf)
-46.C. Jin, L.-J. Deng, T.-Z. Huang, and G. Vivone, “Laplacian pyramid networks: A new approach for multispectral pansharpening,” Information Fusion, vol. 78, pp. 158–170, Feb. 2022, [paper](https://liangjiandeng.github.io/papers/2021/jin-if2021.pdf) [codes](https://github.com/ChengJin-git/LPPN)
-47. Y. Wang, L.-J. Deng, T.-J. Zhang, and X. Wu, “SSconv: Explicit Spectral-to-Spatial Convolution for Pansharpening,” in Proceedings of the 29th ACM International Conference on Multimedia, Virtual Event China, Oct. 2021, pp. 4472–4480. [paper](https://liangjiandeng.github.io/papers/2021/mucnn_mm2021/mucnn_mm2021.pdf)[codes](https://github.com/liangjiandeng/MUCNN)
+45. X. Wu, T.-Z. Huang, L.-J. Deng, and T.-J. Zhang, “Dynamic Cross Feature Fusion for Remote Sensing Pansharpening,” ICCV2021, [[paper]](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf).  
+46.C. Jin, L.-J. Deng, T.-Z. Huang, and G. Vivone, “Laplacian pyramid networks: A new approach for multispectral pansharpening,” Information Fusion, vol. 78, pp. 158–170, Feb. 2022, [paper](https://liangjiandeng.github.io/papers/2021/jin-if2021.pdf) [[codes]](https://github.com/ChengJin-git/LPPN).  
+47. Y. Wang, L.-J. Deng, T.-J. Zhang, and X. Wu, “SSconv: Explicit Spectral-to-Spatial Convolution for Pansharpening,” in Proceedings of the 29th ACM International Conference on Multimedia, Virtual Event China, Oct. 2021, pp. 4472–4480. [[paper]](https://liangjiandeng.github.io/papers/2021/mucnn_mm2021/mucnn_mm2021.pdf)[[codes]](https://github.com/liangjiandeng/MUCNN).  
 
 
 ### Unsupervised Methods
