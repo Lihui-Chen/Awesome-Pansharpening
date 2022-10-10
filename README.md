@@ -26,10 +26,32 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 2. *G. Vivone, M. Dalla Mura, A. Garzelli, and F. Pacifici, "A Benchmarking Protocol for Pansharpening: Dataset, Pre-processing, and Quality Assessment," IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2021.* 
 
    [PAirMax benchmark dataset ](https://resources.maxar.com/product-samples/pansharpening-benchmark-dataset)
+3. Liangjian Deng et al., [PanCollection Dataset](https://liangjiandeng.github.io/PanCollection.html)
 
-3. [Remote Sensing Product Samples](https://resources.maxar.com/product-samples)
+   A fully prepared dataset with training and test sets by the pipeline described in the following paper.
+   
+   ```latex
+    @ARTICLE{dengjig2022,
+        author={邓良剑，冉燃，吴潇，张添敬},
+        journal={中国图象图形学报},
+        title={遥感图像全色锐化的卷积神经网络方法研究进展},
+        year={2022},
+        volume={},
+        number={9},
+        pages={},
+        doi={10.11834/jig.220540}
+    }
+   ```
+   
+4. Yu-Wei Zhuo, Tian-Jing Zhang, Jin-Fan Hu, Hong-Xia Dou, Ting-Zhu Huang, Liang-Jian Deng*, "A Deep-Shallow Fusion Network With Multidetail Extractor and Spectral Attention for Hyperspectral Pansharpening," IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2022. [Hyperspectral Pansharpening Dataset](https://github.com/liangjiandeng/HyperPanCollection) (A easy-to-use dataset "HyperPanCollection" for hyperspectral pansharpening) 
+  
 
-4. [gscloud](http://www.gscloud.cn/sources/index?pid=2&rootid=2)
+5. [Remote Sensing Product Samples](https://resources.maxar.com/product-samples)
+、
+
+6. [gscloud](http://www.gscloud.cn/sources/index?pid=2&rootid=2)
+  
+
 
 ## Survey
 
@@ -42,6 +64,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 7. X. Meng, H. Shen, H. Li, L. Zhang, and R. Fu, “Review of the pansharpening methods for remote sensing images based on the idea of meta-analysis: Practical discussion and challenges,” *Information Fusion*, vol. 46, pp. 102–113, Mar. 2019, doi: [10.1016/j.inffus.2018.05.006](https://doi.org/10.1016/j.inffus.2018.05.006). 
 8. G. Vivone *et al.*, “A New Benchmark Based on Recent Advances in Multispectral Pansharpening: Revisiting Pansharpening With Classical and Emerging Pansharpening Methods,” *IEEE Geosci. Remote Sens. Mag.*, vol. 9, no. 1, pp. 53–81, Mar. 2021, doi: [10.1109/MGRS.2020.3019315](https://doi.org/10.1109/MGRS.2020.3019315). 
 9. X. Meng *et al.*, “A Large-Scale Benchmark Data Set for Evaluating Pansharpening Performance: Overview and Implementation,” *IEEE Geosci. Remote Sens. Mag.*, vol. 9, no. 1, pp. 18–52, Mar. 2021, doi: [10.1109/MGRS.2020.2976696](https://doi.org/10.1109/MGRS.2020.2976696).
+10.  Liang-Jian Deng, Gemine Vivone*, Mercedes E. Paoletti, Giuseppe Scarpa, Jiang He, Yongjun Zhang, Jocelyn Chanussot, Antonio Plaza, "Machine Learning in Pansharpening: A Benchmark, from Shallow to Deep Networks," IEEE Geoscience and Remote Sensing Magazine, 2022 (A bechmark and easy-to-use code toolbox for pansharpening) [[Codes](https://github.com/liangjiandeng/DLPan-Toolbox)]
 
 ## Performance-Assessment
 
