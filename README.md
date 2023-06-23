@@ -137,7 +137,8 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 2. Pengfei Liu, Liang Xiao, and Tao Li. 2018. A Variational Pan-Sharpening Method Based on Spatial Fractional-Order Geometry and Spectral–Spatial Low-Rank Priors. *IEEE Transactions on Geoscience and Remote Sensing* 56 (March 2018), 1788–1802. https://doi.org/10.1109/TGRS.2017.2768386
 3. Penghao Guo, Peixian Zhuang, and Yecai Guo. 2020. Bayesian Pan-Sharpening With Multiorder Gradient-Based Deep Network Constraints. *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing* 13 (2020), 950–962. https://doi.org/10.1109/JSTARS.2020.2975000
 4. Haitao Yin. 2019. PAN-Guided Cross-Resolution Projection for Local Adaptive Sparse Representation- Based Pansharpening. *IEEE Transactions on Geoscience and Remote Sensing* 57 (July 2019), 4938–4950. https://doi.org/10.1109/TGRS.2019.2894702
-
+5. L. Yu, D. Liu, H. Mansour and P. T. Boufounos, "Fast and High-Quality Blind Multi-Spectral Image Pansharpening," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-17, 2022, Art no. 5403417, doi: 10.1109/TGRS.2021.3091329.[paper](https://ieeexplore.ieee.org/document/9491792)
+   
 ## Deep Learning Based Pansharpening
 
 ### Supervised Methods
@@ -173,16 +174,16 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 30. X. Liu, Q. Liu, and Y. Wang, “Remote sensing image fusion based on two-stream fusion network,” *Information Fusion*, vol. 55, pp. 1–15, Mar. 2020, doi: [10.1016/j.inffus.2019.07.010](https://doi.org/10.1016/j.inffus.2019.07.010).
 31. F. Ozcelik, U. Alganci, E. Sertel, and G. Unal, “Rethinking CNN-Based Pansharpening: Guided Colorization of Panchromatic Images via GANs,” *IEEE Trans. Geosci. Remote Sensing*, pp. 1–16, 2020, doi: [10.1109/TGRS.2020.3010441](https://doi.org/10.1109/TGRS.2020.3010441).
 32. Z. Shao, Z. Lu, M. Ran, L. Fang, J. Zhou, and Y. Zhang, “Residual Encoder–Decoder Conditional Generative Adversarial Network for Pansharpening,” *IEEE Geosci. Remote Sensing Lett.*, vol. 17, no. 9, pp. 1573–1577, Sep. 2020, doi: [10.1109/LGRS.2019.2949745](https://doi.org/10.1109/LGRS.2019.2949745).
-37. S. Vitale and G. Scarpa, “A Detail-Preserving Cross-Scale Learning Strategy for CNN-Based Pansharpening,” *Remote Sensing*, vol. 12, no. 3, p. 348, Jan. 2020, doi: [10.3390/rs12030348](https://doi.org/10.3390/rs12030348).
-38. W. Wei and Y. Zhang, “Deep Recursive Network for Hyperspectral Image Super-Resolution,” *IEEE TRANSACTIONS ON COMPUTATIONAL IMAGING*, vol. 6, p. 12, 2020.
-39. Y. Yang, W. Tu, S. Huang, and H. Lu, “PCDRN: Progressive Cascade Deep Residual Network for Pansharpening,” *Remote Sensing*, vol. 12, no. 4, p. 676, Feb. 2020, doi: [10.3390/rs12040676](https://doi.org/10.3390/rs12040676).
-40. Y. Zheng, J. Li, Y. Li, K. Cao, and K. Wang, “Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening,” *IEEE Geosci. Remote Sensing Lett.*, vol. 17, no. 8, pp. 1435–1439, Aug. 2020, doi: [10.1109/LGRS.2019.2945424](https://doi.org/10.1109/LGRS.2019.2945424).
-41. Y. Zheng, J. Li, Y. Li, J. Guo, X. Wu, and J. Chanussot, “Hyperspectral Pansharpening Using Deep Prior and Dual Attention Residual Network,” *IEEE Trans. Geosci. Remote Sensing*, vol. 58, no. 11, pp. 8059–8076, Nov. 2020, doi: [10.1109/TGRS.2020.2986313](https://doi.org/10.1109/TGRS.2020.2986313).
-43. D. Lei, H. Chen, L. Zhang, and W. Li, “NLRNet: An Efficient Nonlocal Attention ResNet for Pansharpening,” *IEEE Transactions on Geoscience and Remote Sensing*, pp. 1–13, 2021, doi: [10.1109/TGRS.2021.3067097](https://doi.org/10.1109/TGRS.2021.3067097).
-44. S. Xu, J. Zhang, Z. Zhao, K. Sun, J. Liu, and C. Zhang, “Deep Gradient Projection Networks for Pan-sharpening,” *CVPR2021*, Mar. 2021,
-45. X. Wu, T.-Z. Huang, L.-J. Deng, and T.-J. Zhang, “Dynamic Cross Feature Fusion for Remote Sensing Pansharpening,” ICCV2021, [[paper]](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf).  
-46.C. Jin, L.-J. Deng, T.-Z. Huang, and G. Vivone, “Laplacian pyramid networks: A new approach for multispectral pansharpening,” Information Fusion, vol. 78, pp. 158–170, Feb. 2022, [paper](https://liangjiandeng.github.io/papers/2021/jin-if2021.pdf) [[codes]](https://github.com/ChengJin-git/LPPN).  
-47. Y. Wang, L.-J. Deng, T.-J. Zhang, and X. Wu, “SSconv: Explicit Spectral-to-Spatial Convolution for Pansharpening,” in Proceedings of the 29th ACM International Conference on Multimedia, Virtual Event China, Oct. 2021, pp. 4472–4480. [[paper]](https://liangjiandeng.github.io/papers/2021/mucnn_mm2021/mucnn_mm2021.pdf)[[codes]](https://github.com/liangjiandeng/MUCNN).  
+33. S. Vitale and G. Scarpa, “A Detail-Preserving Cross-Scale Learning Strategy for CNN-Based Pansharpening,” *Remote Sensing*, vol. 12, no. 3, p. 348, Jan. 2020, doi: [10.3390/rs12030348](https://doi.org/10.3390/rs12030348).
+34. W. Wei and Y. Zhang, “Deep Recursive Network for Hyperspectral Image Super-Resolution,” *IEEE TRANSACTIONS ON COMPUTATIONAL IMAGING*, vol. 6, p. 12, 2020.
+35. Y. Yang, W. Tu, S. Huang, and H. Lu, “PCDRN: Progressive Cascade Deep Residual Network for Pansharpening,” *Remote Sensing*, vol. 12, no. 4, p. 676, Feb. 2020, doi: [10.3390/rs12040676](https://doi.org/10.3390/rs12040676).
+36. Y. Zheng, J. Li, Y. Li, K. Cao, and K. Wang, “Deep Residual Learning for Boosting the Accuracy of Hyperspectral Pansharpening,” *IEEE Geosci. Remote Sensing Lett.*, vol. 17, no. 8, pp. 1435–1439, Aug. 2020, doi: [10.1109/LGRS.2019.2945424](https://doi.org/10.1109/LGRS.2019.2945424).
+37. Y. Zheng, J. Li, Y. Li, J. Guo, X. Wu, and J. Chanussot, “Hyperspectral Pansharpening Using Deep Prior and Dual Attention Residual Network,” *IEEE Trans. Geosci. Remote Sensing*, vol. 58, no. 11, pp. 8059–8076, Nov. 2020, doi: [10.1109/TGRS.2020.2986313](https://doi.org/10.1109/TGRS.2020.2986313).
+38. D. Lei, H. Chen, L. Zhang, and W. Li, “NLRNet: An Efficient Nonlocal Attention ResNet for Pansharpening,” *IEEE Transactions on Geoscience and Remote Sensing*, pp. 1–13, 2021, doi: [10.1109/TGRS.2021.3067097](https://doi.org/10.1109/TGRS.2021.3067097).
+39. S. Xu, J. Zhang, Z. Zhao, K. Sun, J. Liu, and C. Zhang, “Deep Gradient Projection Networks for Pan-sharpening,” *CVPR2021*, Mar. 2021.
+40. X. Wu, T.-Z. Huang, L.-J. Deng, and T.-J. Zhang, “Dynamic Cross Feature Fusion for Remote Sensing Pansharpening,” ICCV2021, [[paper]](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf).
+41. C. Jin, L.-J. Deng, T.-Z. Huang, and G. Vivone, “Laplacian pyramid networks: A new approach for multispectral pansharpening,” Information Fusion, vol. 78, pp. 158–170, Feb. 2022, [paper](https://liangjiandeng.github.io/papers/2021/jin-if2021.pdf) [[codes]](https://github.com/ChengJin-git/LPPN).
+42. Y. Wang, L.-J. Deng, T.-J. Zhang, and X. Wu, “SSconv: Explicit Spectral-to-Spatial Convolution for Pansharpening,” in Proceedings of the 29th ACM International Conference on Multimedia, Virtual Event China, Oct. 2021, pp. 4472–4480. [[paper]](https://liangjiandeng.github.io/papers/2021/mucnn_mm2021/mucnn_mm2021.pdf)[[codes]](https://github.com/liangjiandeng/MUCNN).  
 
 
 ### Unsupervised Methods
