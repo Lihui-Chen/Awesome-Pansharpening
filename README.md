@@ -47,7 +47,6 @@ This repository collects pan-sharpening methods (focus on deep learning based me
   
 
 5. [Remote Sensing Product Samples](https://resources.maxar.com/product-samples)
-、
 
 6. [gscloud](http://www.gscloud.cn/sources/index?pid=2&rootid=2)
   
@@ -115,6 +114,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 [23] G. Vivone, R. Restaino, and J. Chanussot, “A Bayesian Procedure for Full-Resolution Quality Assessment of Pansharpened Products,” *IEEE Trans. Geosci. Remote Sensing*, vol. 56, no. 8, pp. 4820–4834, Aug. 2018, doi: [10.1109/TGRS.2018.2839564](https://doi.org/10.1109/TGRS.2018.2839564).
 
 [24] O. A. Agudelo-Medina, H. D. Benitez-Restrepo, G. Vivone, and A. Bovik, “Perceptual Quality Assessment of Pan-Sharpened Images,” *Remote Sensing*, vol. 11, no. 7, p. 877, Apr. 2019, doi: [10.3390/rs11070877](https://doi.org/10.3390/rs11070877).
+[25] Scarpa G, Ciotola M. Full-Resolution Quality Assessment for Pansharpening. Remote Sensing. 2022; 14(8):1808. https://doi.org/10.3390/rs14081808. [paper](https://www.mdpi.com/2072-4292/14/8/1808)
 
 
 
@@ -192,7 +192,8 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 3. Y. Qu, R. K. Baghbaderani, H. Qi, and C. Kwan, “Unsupervised Pansharpening Based on Self-Attention Mechanism,” *IEEE Trans. Geosci. Remote Sensing*, pp. 1–17, 2020, doi: [10.1109/TGRS.2020.3009207](https://doi.org/10.1109/TGRS.2020.3009207).
 4. T. Uezato, D. Hong, N. Yokoya, and W. He, “Guided Deep Decoder: Unsupervised Image Pair Fusion,” in *Computer Vision – ECCV 2020*, vol. 12351, A. Vedaldi, H. Bischof, T. Brox, and J.-M. Frahm, Eds. Cham: Springer International Publishing, 2020, pp. 87–102. doi: [10.1007/978-3-030-58539-6_6](https://doi.org/10.1007/978-3-030-58539-6_6).
 5. C. Zhou, J. Zhang, J. Liu, C. Zhang, R. Fei, and S. Xu, “PercepPan: Towards Unsupervised Pan-Sharpening Based on Perceptual Loss,” p. 22, 2020.
-
+6. M. Ciotola, S. Vitale, A. Mazza, G. Poggi and G. Scarpa, "Pansharpening by Convolutional Neural Networks in the Full Resolution Framework," in IEEE Transactions on Geoscience and Remote Sensing, vol. 60, pp. 1-17, 2022, Art no. 5408717, doi: 10.1109/TGRS.2022.3163887. [paper](https://ieeexplore.ieee.org/abstract/document/9745494)
+7. Ciotola M, Scarpa G. Fast Full-Resolution Target-Adaptive CNN-Based Pansharpening Framework. Remote Sensing. 2023; 15(2):319. https://doi.org/10.3390/rs15020319. [paper](https://www.mdpi.com/2072-4292/15/2/319)
 
 
 ## Challenges In Pansharpening
