@@ -1,5 +1,5 @@
 # Awesome-Pansharpening
-This repository collects pan-sharpening methods (focus on deep learning based methods), codes, and datasets. 
+This repository collects pan-sharpening methods (focus on deep learning based methods), codes, and datasets. If you find some interesting papers not included, please feel free to contact me. 
 
 ## Contents
 
@@ -114,6 +114,7 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 [23] G. Vivone, R. Restaino, and J. Chanussot, “A Bayesian Procedure for Full-Resolution Quality Assessment of Pansharpened Products,” *IEEE Trans. Geosci. Remote Sensing*, vol. 56, no. 8, pp. 4820–4834, Aug. 2018, doi: [10.1109/TGRS.2018.2839564](https://doi.org/10.1109/TGRS.2018.2839564).
 
 [24] O. A. Agudelo-Medina, H. D. Benitez-Restrepo, G. Vivone, and A. Bovik, “Perceptual Quality Assessment of Pan-Sharpened Images,” *Remote Sensing*, vol. 11, no. 7, p. 877, Apr. 2019, doi: [10.3390/rs11070877](https://doi.org/10.3390/rs11070877).
+
 [25] Scarpa G, Ciotola M. Full-Resolution Quality Assessment for Pansharpening. Remote Sensing. 2022; 14(8):1808. https://doi.org/10.3390/rs14081808. [paper](https://www.mdpi.com/2072-4292/14/8/1808)
 
 
