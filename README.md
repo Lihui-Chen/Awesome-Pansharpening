@@ -185,7 +185,9 @@ This repository collects pan-sharpening methods (focus on deep learning based me
 40. X. Wu, T.-Z. Huang, L.-J. Deng, and T.-J. Zhang, “Dynamic Cross Feature Fusion for Remote Sensing Pansharpening,” ICCV2021, [[paper]](https://liangjiandeng.github.io/papers/2021/dfcnet2021.pdf).
 41. C. Jin, L.-J. Deng, T.-Z. Huang, and G. Vivone, “Laplacian pyramid networks: A new approach for multispectral pansharpening,” Information Fusion, vol. 78, pp. 158–170, Feb. 2022, [paper](https://liangjiandeng.github.io/papers/2021/jin-if2021.pdf) [[codes]](https://github.com/ChengJin-git/LPPN).
 42. Y. Wang, L.-J. Deng, T.-J. Zhang, and X. Wu, “SSconv: Explicit Spectral-to-Spatial Convolution for Pansharpening,” in Proceedings of the 29th ACM International Conference on Multimedia, Virtual Event China, Oct. 2021, pp. 4472–4480. [[paper]](https://liangjiandeng.github.io/papers/2021/mucnn_mm2021/mucnn_mm2021.pdf)[[codes]](https://github.com/liangjiandeng/MUCNN).  
-
+43.WU Z C, HUANG T Z, DENG L J, 等. VO+Net: An Adaptive Approach Using Variational Optimization and Deep Learning for Panchromatic Sharpening[J/OL]. IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-16. DOI:[10.1109/TGRS.2021.3066425.](https://ieeexplore.ieee.org/document/9387460/)
+44.CIOTOLA M, VITALE S, MAZZA A, 等. Pansharpening by convolutional neural networks in the full resolution framework[J/OL]. IEEE Transactions on Geoscience and Remote Sensing, 2022, 60: 1-17. DOI:[10.1109/TGRS.2022.3163887.](http://arxiv.org/abs/2111.08334)
+45.DIAO W, ZHANG F, WANG H, 等. HLF-Net: Pansharpening Based on High- and Low-Frequency Fusion Networks[J/OL]. IEEE Geoscience and Remote Sensing Letters, 2022, 19: 1-5. DOI:[10.1109/LGRS.2022.3225974.](https://ieeexplore.ieee.org/document/9967980/)
 
 ### Unsupervised Methods
 1. S. Luo, S. Zhou, Y. Feng, and J. Xie, “Pansharpening via Unsupervised Convolutional Neural Networks,” *IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING*, vol. 13, p. 16, 2020.
